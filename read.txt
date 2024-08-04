@@ -1,0 +1,15 @@
+PACKAGES:
+psycopy2 = it is a popular postgreSQL database adapter for python programming language. designed for heavily 
+            multi-threaded applications that create and destroy losts of cursors and make a large number of 
+            concurrent "INSERT" or "UPDATE"S. 
+
+python-dotenv = it reads key-value pairs from a .env file and can set them as environment variables. it helps 
+                in the development of applications following the 12 factors principles.
+                it enable us top used environment variables, within our environment we will set some secret key 
+                like some database credential
+
+Whitenoise = with a couple of lines of config Whitenoise allows your web app to serve its own static files, 
+            making it a self-contained unit that can be deployed anywhere without relying on nginx, Amazon S3
+            or any other external service
+
+
