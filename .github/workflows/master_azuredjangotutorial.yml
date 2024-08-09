@@ -28,15 +28,15 @@ jobs:
           source venv/bin/activate
       
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          source venv/bin/activate
+          pip install -r requirements.txt
 
       # - name: Run collectstatic
       #   run: python manage.py collectstatic
       - name: Run collectstatic
-        env:
-          DJANGO_SETTINGS_MODULE: 'your_project.settings'
         run: |
-          source env/bin/activate
+          source venv/bin/activate
           python manage.py collectstatic --noinput
 
         
