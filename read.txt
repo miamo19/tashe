@@ -1,5 +1,5 @@
 PACKAGES:
-psycopy2 = it is a popular postgreSQL database adapter for python programming language. designed for heavily 
+psycopg2 = it is a popular postgreSQL database adapter for python programming language. designed for heavily 
             multi-threaded applications that create and destroy losts of cursors and make a large number of 
             concurrent "INSERT" or "UPDATE"S. 
 
